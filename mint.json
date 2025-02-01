@@ -36,19 +36,34 @@
   ],
   "anchors": [
     {
-      "name": "Documentations",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "name": "Report IT Issue",
+      "icon": "circle-exclamation",
+      "color": "#dc2626",
+      "url": "report-issue"
     },
     {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
+      "name": "Submit News",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "color": "#2563eb",
+      "url": "submit-news"
+    },
+    {
+      "name": "Budget Help",
+      "icon": "calculator",
+      "color": "#059669",
+      "url": "budget-help"
+    },
+    {
+      "name": "Purchase Equipment",
+      "icon": "cart-shopping",
+      "color": "#7c3aed",
+      "url": "purchase"
+    },
+    {
+      "name": "Latest Updates",
+      "icon": "bell",
+      "color": "#ea580c",
+      "url": "updates"
     }
   ],
   "navigation": [
