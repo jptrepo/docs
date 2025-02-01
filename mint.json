@@ -31,13 +31,13 @@
       "url": "api-reference"
     },
     {
-      "name": "Communicatins",
+      "name": "Communications",
       "url": "communications"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "Documentations",
       "icon": "book-open-cover",
       "url": "https://mintlify.com/docs"
     },
