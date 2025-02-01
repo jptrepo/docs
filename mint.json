@@ -54,11 +54,7 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
+      "pages": ["introduction", "quickstart", "development"]
     },
     {
       "group": "Essentials",
@@ -74,7 +70,11 @@
     {
       "group": "Communications",
       "pages": [
-        "communications/hello"
+        "communications/index",
+        "communications/media-relations",
+        "communications/newsletter",
+        "communications/staff",
+        "communications/toolbox"
       ]
     }
   ],
