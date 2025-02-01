@@ -32,11 +32,35 @@
     {
       "name": "Communications",
       "url": "communications"
+    },
+    {
+      "name": "Technology",
+      "url": "technology"
+    },
+    {
+      "name": "Finance / Budget / Purchasing",
+      "url": "finance"
+    },
+    {
+      "name": "Staff",
+      "url": "staff"
+    },
+    {
+      "name": "Latest Updates",
+      "url": "updates"
+    },
+    {
+      "name": "Faculty Affairs",
+      "url": "faculty-affairs"
+    },
+    {
+      "name": "Research",
+      "url": "research"
     }
   ],
   "anchors": [
     {
-      "name": "Report IT Issue",
+      "name": "Report Tech/AV Issue",
       "icon": "circle-exclamation",
       "color": "#dc2626",
       "url": "report-issue"
@@ -60,7 +84,7 @@
       "url": "purchase"
     },
     {
-      "name": "Latest Updates",
+      "name": "Updates",
       "icon": "bell",
       "color": "#ea580c",
       "url": "updates"
@@ -72,17 +96,6 @@
       "pages": ["introduction", "quickstart", "development"]
     },
     {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
       "group": "Communications",
       "pages": [
         "communications/index",
@@ -90,6 +103,70 @@
         "communications/newsletter",
         "communications/staff",
         "communications/toolbox"
+      ]
+    },
+    {
+      "group": "Technology",
+      "pages": [
+        "technology/index",
+        {
+          "group": "Support",
+          "pages": [
+            "technology/report-issue",
+            "technology/equipment",
+            "technology/software"
+          ]
+        },
+        {
+          "group": "Resources",
+          "pages": ["technology/training", "technology/policies"]
+        }
+      ]
+    },
+    {
+      "group": "Finance",
+      "pages": [
+        "finance/index",
+        {
+          "group": "Budgeting",
+          "pages": ["finance/budget", "finance/purchasing", "finance/forms"]
+        },
+        {
+          "group": "Travel",
+          "pages": ["finance/travel", "finance/reimbursement"]
+        }
+      ]
+    },
+    {
+      "group": "Faculty Affairs",
+      "pages": [
+        "faculty-affairs/index",
+        {
+          "group": "Career Development",
+          "pages": ["faculty-affairs/promotion", "faculty-affairs/development"]
+        },
+        {
+          "group": "Support",
+          "pages": ["faculty-affairs/teaching", "faculty-affairs/benefits"]
+        }
+      ]
+    },
+    {
+      "group": "Research",
+      "pages": [
+        "research/index",
+        {
+          "group": "Funding",
+          "pages": ["research/grants", "research/budgets"]
+        },
+        {
+          "group": "Compliance",
+          "pages": ["research/compliance", "research/safety"]
+        },
+        {
+          "group": "Resources",
+          "pages": ["research/labs", "research/data"]
+        }
       ]
     }
   ],
