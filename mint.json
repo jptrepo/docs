@@ -60,14 +60,14 @@
   ],
   "anchors": [
     {
-      "name": "API References",
+      "name": "Report an IT issue",
       "icon": "code",
       "url": "api-references"
     },
     {
-      "name": "Content",
-      "icon": "pencil",
-      "url": "content"
+      "name": "Help with budget",
+      "icon": "dollar-sign",
+      "url": "finance/budget"
     },
     {
       "name": "Contact us",
