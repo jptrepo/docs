@@ -110,7 +110,7 @@
       "pages": [
         "technology/index",
         {
-          "group": "Support",
+          "group": "Support Services",
           "pages": [
             "technology/report-issue",
             "technology/equipment",
@@ -118,8 +118,20 @@
           ]
         },
         {
-          "group": "Resources",
-          "pages": ["technology/training", "technology/policies"]
+          "group": "Resources & Training",
+          "pages": [
+            "technology/training",
+            "technology/policies",
+            "technology/security"
+          ]
+        },
+        {
+          "group": "Systems",
+          "pages": [
+            "technology/network",
+            "technology/email",
+            "technology/storage"
+          ]
         }
       ]
     },
@@ -128,12 +140,20 @@
       "pages": [
         "finance/index",
         {
-          "group": "Budgeting",
-          "pages": ["finance/budget", "finance/purchasing", "finance/forms"]
+          "group": "Budgeting & Planning",
+          "pages": ["finance/budget", "finance/planning", "finance/reporting"]
         },
         {
-          "group": "Travel",
-          "pages": ["finance/travel", "finance/reimbursement"]
+          "group": "Purchasing",
+          "pages": ["finance/purchasing", "finance/vendors", "finance/forms"]
+        },
+        {
+          "group": "Travel & Expenses",
+          "pages": [
+            "finance/travel",
+            "finance/reimbursement",
+            "finance/policies"
+          ]
         }
       ]
     },
@@ -143,11 +163,27 @@
         "faculty-affairs/index",
         {
           "group": "Career Development",
-          "pages": ["faculty-affairs/promotion", "faculty-affairs/development"]
+          "pages": [
+            "faculty-affairs/promotion",
+            "faculty-affairs/development",
+            "faculty-affairs/mentoring"
+          ]
         },
         {
-          "group": "Support",
-          "pages": ["faculty-affairs/teaching", "faculty-affairs/benefits"]
+          "group": "Teaching Support",
+          "pages": [
+            "faculty-affairs/teaching",
+            "faculty-affairs/classroom-tech",
+            "faculty-affairs/assessment"
+          ]
+        },
+        {
+          "group": "Benefits & Resources",
+          "pages": [
+            "faculty-affairs/benefits",
+            "faculty-affairs/leave",
+            "faculty-affairs/resources"
+          ]
         }
       ]
     },
@@ -156,16 +192,21 @@
       "pages": [
         "research/index",
         {
-          "group": "Funding",
-          "pages": ["research/grants", "research/budgets"]
+          "group": "Funding & Grants",
+          "pages": ["research/grants", "research/proposals", "research/budgets"]
         },
         {
-          "group": "Compliance",
-          "pages": ["research/compliance", "research/safety"]
+          "group": "Compliance & Safety",
+          "pages": ["research/compliance", "research/safety", "research/ethics"]
         },
         {
-          "group": "Resources",
-          "pages": ["research/labs", "research/data"]
+          "group": "Resources & Support",
+          "pages": [
+            "research/labs",
+            "research/data",
+            "research/equipment",
+            "research/computing"
+          ]
         }
       ]
     }
