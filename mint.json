@@ -60,36 +60,22 @@
   ],
   "anchors": [
     {
-      "name": "Report Tech/AV Issue",
-      "icon": "circle-exclamation",
-      "color": "#dc2626",
-      "url": "report-issue"
+      "name": "API References",
+      "icon": "code",
+      "url": "api-references"
     },
     {
-      "name": "Submit News",
-      "icon": "newspaper",
-      "color": "#2563eb",
-      "url": "submit-news"
+      "name": "Content",
+      "icon": "pencil",
+      "url": "content"
     },
     {
-      "name": "Budget Help",
-      "icon": "calculator",
-      "color": "#059669",
-      "url": "budget-help"
-    },
-    {
-      "name": "Purchase Equipment",
-      "icon": "cart-shopping",
-      "color": "#7c3aed",
-      "url": "purchase"
-    },
-    {
-      "name": "Updates",
-      "icon": "bell",
-      "color": "#ea580c",
-      "url": "updates"
+      "name": "Contact us",
+      "icon": "envelope",
+      "url": "https://mintlify.com/contact-us"
     }
   ],
+
   "navigation": [
     {
       "group": "Get Started",
