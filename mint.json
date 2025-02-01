@@ -58,16 +58,20 @@
       "url": "research"
     }
   ],
+  "topAnchor": {
+    "name": "Home",
+    "icon": "building"
+  },
   "anchors": [
     {
       "name": "Report an IT issue",
       "icon": "code",
-      "url": "api-references"
+      "url": "technology/report-issue"
     },
     {
-      "name": "Help with budget",
+      "name": "Help with purchasing",
       "icon": "dollar-sign",
-      "url": "finance/budget"
+      "url": "finance/purchasing"
     },
     {
       "name": "Contact us",
