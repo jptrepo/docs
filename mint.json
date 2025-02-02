@@ -74,9 +74,9 @@
       "url": "finance/purchasing"
     },
     {
-      "name": "Contact us",
-      "icon": "envelope",
-      "url": "https://mintlify.com/contact-us"
+      "name": "Book a room",
+      "icon": "calendar",
+      "url": "#"
     }
   ],
 
@@ -196,6 +196,28 @@
             "research/data",
             "research/equipment",
             "research/computing"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Staff",
+      "pages": [
+        "staff/index",
+        {
+          "group": "Resources",
+          "pages": [
+            "staff/employee-resources",
+            "staff/professional-development",
+            "staff/advisory-council"
+          ]
+        },
+        {
+          "group": "Services",
+          "pages": [
+            "staff/events",
+            "staff/recognition",
+            "staff/administrative-affairs"
           ]
         }
       ]
