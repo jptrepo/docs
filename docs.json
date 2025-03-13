@@ -19,11 +19,7 @@
             "groups": [
               {
                 "group": "Get Started",
-                "pages": [
-                  "introduction",
-                  "quickstart",
-                  "development"
-                ]
+                "pages": ["introduction", "quickstart", "development"]
               }
             ]
           },
@@ -221,9 +217,7 @@
             "pages": [
               {
                 "group": "Support Services",
-                "pages": [
-                  "technology/report-issue"
-                ]
+                "pages": ["technology/report-issue"]
               }
             ]
           }
@@ -238,9 +232,7 @@
             "pages": [
               {
                 "group": "Purchasing",
-                "pages": [
-                  "finance/purchasing"
-                ]
+                "pages": ["finance/purchasing"]
               }
             ]
           }
@@ -249,8 +241,8 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/eng_light.png",
+    "dark": "/logo/eng_dark.png"
   },
   "navbar": {
     "links": [
