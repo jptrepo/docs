@@ -1,0 +1,275 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Starter Kit",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "anchors": [
+      {
+        "anchor": "Home",
+        "icon": "building",
+        "tabs": [
+          {
+            "tab": "Home",
+            "groups": [
+              {
+                "group": "Get Started",
+                "pages": [
+                  "introduction",
+                  "quickstart",
+                  "development"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Communications",
+            "groups": [
+              {
+                "group": "Communications",
+                "pages": [
+                  "communications/index",
+                  "communications/media-relations",
+                  "communications/newsletter",
+                  "communications/staff",
+                  "communications/toolbox"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Technology",
+            "groups": [
+              {
+                "group": "Technology",
+                "pages": [
+                  "technology/index",
+                  {
+                    "group": "Support Services",
+                    "pages": [
+                      "technology/report-issue",
+                      "technology/equipment",
+                      "technology/software"
+                    ]
+                  },
+                  {
+                    "group": "Resources & Training",
+                    "pages": [
+                      "technology/training",
+                      "technology/policies",
+                      "technology/security"
+                    ]
+                  },
+                  {
+                    "group": "Systems",
+                    "pages": [
+                      "technology/network",
+                      "technology/email",
+                      "technology/storage"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Finance / Budget / Purchasing",
+            "groups": [
+              {
+                "group": "Finance",
+                "pages": [
+                  "finance/index",
+                  {
+                    "group": "Budgeting & Planning",
+                    "pages": [
+                      "finance/budget",
+                      "finance/planning",
+                      "finance/reporting"
+                    ]
+                  },
+                  {
+                    "group": "Purchasing",
+                    "pages": [
+                      "finance/purchasing",
+                      "finance/vendors",
+                      "finance/forms"
+                    ]
+                  },
+                  {
+                    "group": "Travel & Expenses",
+                    "pages": [
+                      "finance/travel",
+                      "finance/reimbursement",
+                      "finance/policies"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Staff",
+            "groups": [
+              {
+                "group": "Staff",
+                "pages": [
+                  "staff/index",
+                  {
+                    "group": "Resources",
+                    "pages": [
+                      "staff/employee-resources",
+                      "staff/professional-development",
+                      "staff/advisory-council"
+                    ]
+                  },
+                  {
+                    "group": "Services",
+                    "pages": [
+                      "staff/events",
+                      "staff/recognition",
+                      "staff/administrative-affairs"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Faculty Affairs",
+            "groups": [
+              {
+                "group": "Faculty Affairs",
+                "pages": [
+                  "faculty-affairs/index",
+                  {
+                    "group": "Career Development",
+                    "pages": [
+                      "faculty-affairs/promotion",
+                      "faculty-affairs/development",
+                      "faculty-affairs/mentoring"
+                    ]
+                  },
+                  {
+                    "group": "Teaching Support",
+                    "pages": [
+                      "faculty-affairs/teaching",
+                      "faculty-affairs/classroom-tech",
+                      "faculty-affairs/assessment"
+                    ]
+                  },
+                  {
+                    "group": "Benefits & Resources",
+                    "pages": [
+                      "faculty-affairs/benefits",
+                      "faculty-affairs/leave",
+                      "faculty-affairs/resources"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Research",
+            "groups": [
+              {
+                "group": "Research",
+                "pages": [
+                  "research/index",
+                  {
+                    "group": "Funding & Grants",
+                    "pages": [
+                      "research/grants",
+                      "research/proposals",
+                      "research/budgets"
+                    ]
+                  },
+                  {
+                    "group": "Compliance & Safety",
+                    "pages": [
+                      "research/compliance",
+                      "research/safety",
+                      "research/ethics"
+                    ]
+                  },
+                  {
+                    "group": "Resources & Support",
+                    "pages": [
+                      "research/labs",
+                      "research/data",
+                      "research/equipment",
+                      "research/computing"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "anchor": "Report an IT issue",
+        "icon": "code",
+        "groups": [
+          {
+            "group": "Technology",
+            "pages": [
+              {
+                "group": "Support Services",
+                "pages": [
+                  "technology/report-issue"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "anchor": "Help with purchasing",
+        "icon": "dollar-sign",
+        "groups": [
+          {
+            "group": "Finance",
+            "pages": [
+              {
+                "group": "Purchasing",
+                "pages": [
+                  "finance/purchasing"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "mailto:hi@mintlify.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://dashboard.mintlify.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
+    }
+  }
+}
