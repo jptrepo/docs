@@ -75,6 +75,22 @@
                       "technology/email",
                       "technology/storage"
                     ]
+                  },
+                  {
+                    "group": "Systems",
+                    "pages": [
+                      "technology/network",
+                      "technology/email",
+                      "technology/storage"
+                    ]
+                  },
+                  {
+                    "group": "Standard Operating Procedures",
+                    "pages": [
+                      "technology/hrp-process",
+                      "technology/processing-contracts",
+                      "technology/engineering-it-assets-review"
+                    ]
                   }
                 ]
               }
